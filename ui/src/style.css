@@ -1,0 +1,60 @@
+/*
+ * Basic styling for the app taken from Stefan's initial example (URL no longer active).
+ *
+ * @author Stefan Bohacek
+ * @author Robert C. Duvall
+ * @author Dennis Quan
+ */
+ @charset "utf-8";
+
+ #app {
+     background-color: rgb(173, 199, 233);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .houseimg {
+    margin-bottom: 15px;
+    max-height: 200px;
+  }
+ #welcome {
+     margin: auto;
+     max-width: 800px;
+ }
+ 
+ body {
+     text-align: center;
+     text-shadow: 0 0 2px #000;
+     color: darkslateblue;
+     background: lavenderblush;
+     margin: auto;
+     padding: 0;
+ }
+ 
+ /* Make DIV expand to fill all the window */
+ div {
+     margin: auto;
+ }
+ 
+ button {
+     margin-bottom: 80px;
+ }
+ 
+ .property {
+     border-radius: 25px;
+     border: 2px solid #0c536e;
+     padding: 20px;
+     width: 500px;
+     height: 420px;
+     margin-bottom: 15px;
+ }
+ 
+ .image {
+     border: black;
+     border-radius: 10px;
+     margin-bottom: 5px;
+     max-height: 200px;
+ }
+ 
+ b-dropdown-item {
+     background-color: rgb(140, 236, 240);
+ }
+ 
